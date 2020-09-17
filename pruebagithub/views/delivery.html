@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery de pizzas</title>
+    <meta name="Keywords"  content=" pedido, pedido online, cena, delivery, promociones">
+    <meta name="description" content="Prueba las mejores pizzas al instante te la llevamos a tu casa">
+    <link rel="stylesheet" href="../sass/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+      <div class="container">
+      <div id="cabecera-delivery">
+      <div class="menu-delivery">
+        <ul>
+          <li><a href="../index.html">Pizzas</a></li>
+
+          <li><a href="promociones.html">Promociones</a></li>
+
+          <li><a href="delivery.html">Delivery</a></li>
+
+          <li><a href="historia.html">Historia Loui´s</a></li>
+
+          <li><a href="snacks.html">Snacks</a></li>
+        </ul>
+      </div>
+      <h1 class="tituloDelivery">Hacé tu pedido online</h1>
+      </div>
+    <div class="centroDelivery">
+    <form>
+    <fieldset> <legend>Tú pedido:</legend>
+      <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre"/>
+        <br>
+      <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido"/>
+        <br>
+      <label for="numero_celular">Telefono:</label>
+        <input type="tel" name="numero_celular"/>
+        <br>
+   
+     <legend>Pizzas clasicas:</legend>
+       <select name="opciones_clasicas">
+        
+          <option value="mozzarela">Pizza Mozzarella</option>
+          <option value="napolitana">Pizza Napolitana</option>
+          <option value="jamon_morrones">Pizza Jamón y morrones</option>
+          <option value="ninguna">Solamente especiales</option>
+       </select>
+        
+      <legend>Pizzas especiales:</legend>
+       <select name="opciones_especiales">
+         <option value="champignones">Pizza Champignones</option>
+         <option value="cuatro_estaciones">Pizza Cuatro estaciones</option>
+         <option value="margarita">Pizza Margherita</option>
+         <option value="ninguna">Solamente clasicas</option>
+        </select>
+        <br>
+        <legend>Metodo de pago: </legend>
+         <div>Efectivo</div> 
+          <input type="radio" name="metodo_De_pago" value="efectivo"/>
+         <div>Tarjeta de Credito</div>
+         <input type="radio" name="metodo_De_pago" value="credito"/>
+         <br>
+         <div>Acepto términos y condiciones</div>
+         <input type="checkbox" name="acepta" value="1"/>
+         <br>
+        <input type="reset" value="Eliminar pedido"/>
+        <input type="submit" value="Enviar pedido"/>
+    </fieldset>
+    </form> 
+  </div>
+    <div class="footer-delivery">
+      <p>
+        Copyright 2020
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.whatsapp.com/">Whatsapp</a>
+        <a href="https://twitter.com/">Twitter</a>
+      </p>  
+      </div>
+      </div>
+</body>
+</html>
